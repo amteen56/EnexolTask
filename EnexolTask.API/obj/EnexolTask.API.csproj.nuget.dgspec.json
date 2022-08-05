@@ -1,0 +1,296 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.API\\EnexolTask.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.API\\EnexolTask.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.API\\EnexolTask.API.csproj",
+        "projectName": "EnexolTask.API",
+        "projectPath": "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.API\\EnexolTask.API.csproj",
+        "packagesPath": "C:\\Users\\abdul.mateen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abdul.mateen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Application\\EnexolTask.Application.csproj": {
+                "projectPath": "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Application\\EnexolTask.Application.csproj"
+              },
+              "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Persistence\\EnexolTask.Persistence.csproj": {
+                "projectPath": "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Persistence\\EnexolTask.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "JWT": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Application\\EnexolTask.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Application\\EnexolTask.Application.csproj",
+        "projectName": "EnexolTask.Application",
+        "projectPath": "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Application\\EnexolTask.Application.csproj",
+        "packagesPath": "C:\\Users\\abdul.mateen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abdul.mateen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Domain\\EnexolTask.Domain.csproj": {
+                "projectPath": "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Domain\\EnexolTask.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Domain\\EnexolTask.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Domain\\EnexolTask.Domain.csproj",
+        "projectName": "EnexolTask.Domain",
+        "projectPath": "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Domain\\EnexolTask.Domain.csproj",
+        "packagesPath": "C:\\Users\\abdul.mateen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abdul.mateen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Persistence\\EnexolTask.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Persistence\\EnexolTask.Persistence.csproj",
+        "projectName": "EnexolTask.Persistence",
+        "projectPath": "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Persistence\\EnexolTask.Persistence.csproj",
+        "packagesPath": "C:\\Users\\abdul.mateen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abdul.mateen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Application\\EnexolTask.Application.csproj": {
+                "projectPath": "C:\\Users\\abdul.mateen\\Documents\\MyDATA\\EnexolTask\\EnexolTask.Application\\EnexolTask.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
